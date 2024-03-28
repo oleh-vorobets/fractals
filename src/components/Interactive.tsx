@@ -66,39 +66,13 @@ export function Interactive(props: InteractiveType) {
                         className="open--btn btn right-arrow--btn"
                         onClick={() => setModalWindow(1)}
                     >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth="1.5"
-                            stroke="currentColor"
-                            className="w-6 h-6 svg-arrow"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="m15 15 6-6m0 0-6-6m6 6H9a6 6 0 0 0 0 12h3"
-                            />
-                        </svg>
+                        C
                     </button>
                     <button
                         className="open--btn btn right-arrow--btn bottom-btn"
                         onClick={() => setModalWindow(2)}
                     >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth="1.5"
-                            stroke="currentColor"
-                            className="w-6 h-6 svg-arrow"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="m15 15 6-6m0 0-6-6m6 6H9a6 6 0 0 0 0 12h3"
-                            />
-                        </svg>
+                        A
                     </button>
                 </>
             )}

@@ -35,6 +35,13 @@
     stroke-width: 4px;
 }
 
+.open--btn {
+    border: 0;
+    color: #45ba35;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
 .svg-color-picker {
     width: 2.4rem;
     height: 2.4rem;
